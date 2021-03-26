@@ -1,0 +1,34 @@
+.black-t {
+  color: black !important;
+}
+.l-blue-t {
+  color: #3897f1 !important;
+}
+.l-blue {
+  background-color: #3897f1 !important;
+}
+.white {
+  background: white !important;
+}
+.t-white {
+  color: white !important;
+}
+.grey {
+  background-color: #f6f6f6 !important;
+}
+.grey-t {
+  color: #f6f6f6 !important;
+}
+.blue-border {
+  border: solid #3897f1 !important;
+}
+.dark-grey {
+  background-color: grey !important;
+}
+.b-blue {
+  box-shadow: 1px 1px 12px 1px grey;
+  color: #3897f1 !important;
+}
+.t-white {
+  color: #fff !important;
+}
