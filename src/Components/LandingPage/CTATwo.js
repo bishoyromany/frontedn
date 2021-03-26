@@ -1,9 +1,9 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
 
-import CTAImage1 from "../assets/images/resources/cta-2-moc-1.png";
-import CTAImage2 from "../assets/images/resources/cta-2-moc-2.png";
-import CTAImage3 from "../assets/images/resources/cta-2-moc-3.png";
+import CTAImage1 from "./assets/images/resources/cta-2-moc-1.png";
+import CTAImage2 from "./assets/images/resources/cta-2-moc-2.png";
+import CTAImage3 from "./assets/images/resources/cta-2-moc-3.png";
 
 const CTATwo = () => {
   return (
@@ -37,8 +37,9 @@ const CTATwo = () => {
               </div>
               <div className="cta-two__text">
                 <p>
-                  Engage with your events members with ease, with social media like timeline and high-quality
-                  video conferencing. More features to be discover by you ;)
+                  Engage with your events members with ease, with social media
+                  like timeline and high-quality video conferencing. More
+                  features to be discover by you ;)
                 </p>
               </div>
               <a href="#" className="thm-btn cta-two__btn">

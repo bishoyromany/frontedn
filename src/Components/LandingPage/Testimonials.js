@@ -4,11 +4,11 @@ import SwiperCore, { Pagination, Thumbs, Controller } from "swiper";
 import Swiper from "react-id-swiper";
 import BlockTitle from "./BlockTitle";
 
-import TestiQoute from "../assets/images/shapes/testi-qoute-1-1.png";
+import TestiQoute from "./assets/images/shapes/testi-qoute-1-1.png";
 
-import TestiImageOne from "../assets/images/resources/testi-1-1.jpg";
-import TestiImageTwo from "../assets/images/resources/testi-1-2.jpg";
-import TestiImageThree from "../assets/images/resources/testi-1-3.jpg";
+import TestiImageOne from "./assets/images/resources/testi-1-1.jpg";
+import TestiImageTwo from "./assets/images/resources/testi-1-2.jpg";
+import TestiImageThree from "./assets/images/resources/testi-1-3.jpg";
 
 SwiperCore.use([Pagination, Thumbs, Controller]);
 

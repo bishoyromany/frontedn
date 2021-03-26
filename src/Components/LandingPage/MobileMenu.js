@@ -1,6 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
-import CloseBtn from "../assets/images/shapes/close-1-1.png";
+import CloseBtn from "./assets/images/shapes/close-1-1.png";
 
 const MobileMenu = () => {
   return (
@@ -26,7 +26,10 @@ const MobileMenu = () => {
             Lorm Ipsum has been the industry's stanard dummy text ever.
           </p>
           <p>
-            <a href="mailto:teammobillyinvite@gmail.com">teammobillyinvite@gmail.com</a> <br />
+            <a href="mailto:teammobillyinvite@gmail.com">
+              teammobillyinvite@gmail.com
+            </a>{" "}
+            <br />
             <a href="tel:9348689987">+91-9348689987</a>
           </p>
           <div className="side-menu__social">

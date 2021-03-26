@@ -1,7 +1,7 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
-import ContactBgShape from "../assets/images/shapes/contact-bg-shape-1-1.png";
-import ContactImage from "../assets/images/resources/contact-1-1.jpg";
+import ContactBgShape from "./assets/images/shapes/contact-bg-shape-1-1.png";
+import ContactImage from "./assets/images/resources/contact-1-1.jpg";
 
 const Contact = () => {
   return (

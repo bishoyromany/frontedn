@@ -1,12 +1,10 @@
 import React from "react";
 
-import FooterLogo from "../assets/images/logo-1-1.png";
+import FooterLogo from "./assets/images/logo-1-1.png";
 
 const Footer = () => {
   return (
     <div>
-      
-
       <footer className="site-footer">
         <div className="site-footer__upper">
           <div className="container">

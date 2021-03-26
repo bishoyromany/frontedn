@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Swiper from "react-id-swiper";
-import BrandImage from "../assets/images/resources/brand-1-1.png";
+import BrandImage from "./assets/images/resources/brand-1-1.png";
 
 const Clients = (props) => {
   const params = {

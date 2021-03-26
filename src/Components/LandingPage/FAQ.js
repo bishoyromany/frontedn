@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import BlockTitle from "./BlockTitle";
 import AccordionItem from "./AccordionItem";
-import faqBG from "../assets/images/shapes/faq-bg-1-1.png";
+import faqBG from "./assets/images/shapes/faq-bg-1-1.png";
 
 const FAQ = (props) => {
   return (
@@ -43,7 +43,6 @@ const FAQ = (props) => {
                     words. Lorem ipsum dolor sit amet."
             status={false}
           />
-         
         </div>
       </Container>
     </section>

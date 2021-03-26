@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
 
-import LogoImage from "../assets/images/logo-1-1.png";
+import LogoImage from "./assets/images/logo-1-1.png";
 
 const HeaderHome = (props) => {
   const [sticky, setSticky] = useState(false);

@@ -1,9 +1,9 @@
 import React from "react";
 import BlockTitle from "./BlockTitle";
 
-import CtaShape1 from "../assets/images/shapes/cta-1-shape-1.png";
-import CtaShape2 from "../assets/images/shapes/cta-1-shape-2.png";
-import CtaMoc1 from "../assets/images/resources/cta-1-moc-1.png";
+import CtaShape1 from "./assets/images/shapes/cta-1-shape-1.png";
+import CtaShape2 from "./assets/images/shapes/cta-1-shape-2.png";
+import CtaMoc1 from "./assets/images/resources/cta-1-moc-1.png";
 
 const CTAOne = () => {
   return (
@@ -25,7 +25,7 @@ const CTAOne = () => {
               <div className="cta-one__text">
                 <p>
                   Personal Events, Birthdays, Weddings, Destination Events and
-                 in Just One Platform.
+                  in Just One Platform.
                 </p>
               </div>
               <ul className="list-unstyled cta-one__list">

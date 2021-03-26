@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 
-import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
-import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
-import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
+import BannerShape from "./assets/images/shapes/banner-shape-1-1.png";
+import BannerBG from "./assets/images/resources/banner-image-1-1.jpg";
+import BannerMoc from "./assets/images/resources/banner-moc-1-1.png";
 
 const Banner = () => {
   const [open, setOpen] = useState({
@@ -47,7 +47,12 @@ const Banner = () => {
                 className="banner-one__mc-form mc-form"
                 data-url="phone-number"
               >
-                <input type="tel"  placeholder="Phone Number" pattern="[0-9]{10}" required/>
+                <input
+                  type="tel"
+                  placeholder="Phone Number"
+                  pattern="[0-9]{10}"
+                  required
+                />
                 <button type="submit" className="thm-btn banner-one__mc-btn">
                   <span>Sign In</span>
                 </button>
@@ -57,8 +62,8 @@ const Banner = () => {
                 A Smarter Way <br /> To Attend <br /> Events
               </h3>
               <p>
-              Invite people to celebrate your occasion.{" "}
-                <br />So easy and convinient.
+                Invite people to celebrate your occasion. <br />
+                So easy and convinient.
               </p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>

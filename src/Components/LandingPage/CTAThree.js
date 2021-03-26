@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import Cta3Shape1 from "../assets/images/shapes/cta-three-bg-1-1.png";
-import Cta3Shape2 from "../assets/images/shapes/cta-three-bg-1-2.png";
+import Cta3Shape1 from "./assets/images/shapes/cta-three-bg-1-1.png";
+import Cta3Shape2 from "./assets/images/shapes/cta-three-bg-1-2.png";
 
 const CTAThree = () => {
   return (
